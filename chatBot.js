@@ -3,8 +3,11 @@
 import {useChat, Message} from "ai/react"
 
 export default function chatbot(){
-
+<<<<<<< HEAD
+    const { input, handleInputChange, handleSubmit, isLoading, messages } = useChat({api:'/api/chat'});
+=======
     const { input, handleInputChange, handleSubmit, isLoading, messages } = useChat({api:'/api/chat2'});
+>>>>>>> 6d67e35ab3690267cbc590651dfc5d523e98837e
 
 
     

@@ -41,9 +41,12 @@ export default function Home({ allPostsData }) {
       <h1 className={utilStyles.headingMd}>
       <Link href="/chat2"> Chat with an AI bot this page!</Link>
       </h1>
+<<<<<<< HEAD
       <h1 className={utilStyles.headingMd}>
       <Link href="/llama2page"> llama2!</Link>
       </h1>
+=======
+>>>>>>> 6d67e35ab3690267cbc590651dfc5d523e98837e
       <h1>
         Hi
       </h1>
