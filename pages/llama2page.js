@@ -1,5 +1,4 @@
 import OpenAI from "openai";
-import ChatComponent from "../components/chatBot"
 import Layout from "../components/layout";
 import Llama2component from "../components/llama2client"
 
