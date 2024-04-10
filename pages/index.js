@@ -34,15 +34,13 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
 
-      
+
       <h1 className={utilStyles.headingMd}>
-      <Link href="/chat"> Chat with an AI bot this page!</Link>
+        <Link href="/chat"> Chat with an AI bot this page!</Link>
       </h1>
+
       <h1 className={utilStyles.headingMd}>
-      <Link href="/chat2"> Chat with an AI bot this page!</Link>
-      </h1>
-      <h1 className={utilStyles.headingMd}>
-      <Link href="/llama2page"> llama2!</Link>
+        <Link href="/llama2page"> llama2!</Link>
       </h1>
       <h1>
         Hi
