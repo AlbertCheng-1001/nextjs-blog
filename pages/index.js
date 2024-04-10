@@ -33,10 +33,11 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-
-
       <h1 className={utilStyles.headingMd}>
         <Link href="/chat"> Chat with an AI bot this page!</Link>
+      </h1>
+      <h1 className={utilStyles.headingMd}>
+        <Link href="/test3">LLAM2 streaming chat bot!</Link>
       </h1>
 
       <h1 className={utilStyles.headingMd}>
